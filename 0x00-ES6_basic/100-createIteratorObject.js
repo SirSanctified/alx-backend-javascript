@@ -7,7 +7,8 @@ export default function createIteratorObject(reportObject) {
         next() {
           if (i < employees.length) {
             return {
-              value: employees[i + 1],
+              // eslint-disable-next-line no-plusplus
+              value: employees[i++],
               done: false,
             };
           }
