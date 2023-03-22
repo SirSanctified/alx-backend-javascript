@@ -12,6 +12,7 @@
   "description": "## Description",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
     "acorn": "^8.8.2",
     "acorn-jsx": "^5.3.2",
@@ -262,8 +263,12 @@
     "type": "git",
     "url": "git+https://github.com/SirSanctified/alx-backend-javascript.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "alx",
+    "backend",
+    "javascript",
+    "nodejs"],
+  "author": "Pritchard Mambambo (SirSanctified)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SirSanctified/alx-backend-javascript/issues"
