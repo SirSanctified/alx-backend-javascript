@@ -1,9 +1,6 @@
 /* eslint-disable no-underscore-dangle */
 export default class Building {
   constructor(sqft) {
-    if (new.target === Building) {
-      throw new Error('Abstract classes can\'t be instantiated');
-    }
     this._sqft = sqft;
   }
 
